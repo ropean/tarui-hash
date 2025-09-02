@@ -15,7 +15,7 @@ A professional desktop utility for computing SHA-256 hashes of files, built with
 
 ## Screenshots
 
-![Tauri Hash256 Interface](screenshot.png)
+![Tauri Hash256 Interface](assets/screenshot.png)
 
 ## Technology Stack
 
@@ -36,17 +36,20 @@ A professional desktop utility for computing SHA-256 hashes of files, built with
 ### From Source
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/your-username/tauri-hash256.git
    cd tauri-hash256
    ```
 
 2. Install dependencies:
+
    ```bash
    bun install
    ```
 
 3. Run in development mode:
+
    ```bash
    bun run tauri:dev
    ```
@@ -84,7 +87,7 @@ tauri-hash/
 │   │   └── models.rs    # Data structures
 │   ├── Cargo.toml       # Rust dependencies
 │   └── tauri.conf.json  # Tauri configuration
-├── icons/                # Application icons
+├── assets/                # Application icons
 └── .github/workflows/    # CI/CD pipeline
 ```
 

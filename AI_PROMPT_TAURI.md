@@ -168,11 +168,11 @@ pub async fn compute_sha256(
       "timestampUrl": null
     },
     "icon": [
-      "icons/32x32.png",
-      "icons/128x128.png",
-      "icons/128x128@2x.png",
-      "icons/icon.icns",
-      "icons/icon.ico"
+      "assets/32x32.png",
+      "assets/128x128.png",
+      "assets/128x128@2x.png",
+      "assets/icon.icns",
+      "assets/icon.ico"
     ]
   },
   "window": {
@@ -245,7 +245,7 @@ tauri-hash/
 │   │   └── models.rs
 │   ├── Cargo.toml
 │   └── tauri.conf.json
-├── icons/                  # Application icons
+├── assets/                  # Application icons
 │   ├── 32x32.png
 │   ├── 128x128.png
 │   ├── 128x128@2x.png
