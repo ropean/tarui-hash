@@ -10,7 +10,7 @@ const DEFAULT_SETTINGS: Settings = {
   autoHash: true,
 };
 
-const SETTINGS_KEY = 'tauri-hash256-settings';
+const SETTINGS_KEY = 'tauri-hash-settings';
 
 export function useSettings() {
   const [settings, setSettings] = useState<Settings>(DEFAULT_SETTINGS);
@@ -38,7 +38,7 @@ export function useSettings() {
   }, [settings]);
 
   const updateSetting = useCallback(<K extends keyof Settings>(
-    key: K, 
+    key: K,
     value: Settings[K]
   ) => {
     setSettings(prev => ({ ...prev, [key]: value }));

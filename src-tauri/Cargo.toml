@@ -1,10 +1,10 @@
 [package]
-name = "tauri-hash256"
+name = "tauri-hash"
 version = "1.0.0"
 description = "Professional SHA-256 File Hasher"
 authors = ["Tauri Hash256 Team"]
 license = "MIT"
-repository = "https://github.com/your-username/tauri-hash256"
+repository = "https://github.com/ropean/tauri-hash"
 edition = "2021"
 rust-version = "1.70"
 

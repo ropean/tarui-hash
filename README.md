@@ -31,6 +31,27 @@ A professional desktop utility for computing SHA-256 hashes of files, built with
 - [Bun](https://bun.sh/) (latest version)
 - [Node.js](https://nodejs.org/) (18+ for development)
 
+## Important: Domain Configuration
+
+**⚠️ Before running the development server, you must configure your local domain:**
+
+The application is configured to run on `tarui-hash.aceapp.dev` (note: there's a typo in the current config - should be `tauri-hash.aceapp.dev`). To use this domain locally:
+
+1. **Add to hosts file** (`C:\Windows\System32\drivers\etc\hosts` on Windows):
+
+   ```
+   127.0.0.1 tarui-hash.aceapp.dev
+   ```
+
+2. **Or update the domain** in `vite.config.ts` to use `localhost` or your preferred local domain:
+   ```typescript
+   server: {
+     host: 'localhost', // or your preferred domain
+     port: 1420,
+     // ...
+   }
+   ```
+
 ## Installation
 
 ### From Source
@@ -38,8 +59,8 @@ A professional desktop utility for computing SHA-256 hashes of files, built with
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/tauri-hash256.git
-   cd tauri-hash256
+   git clone https://github.com/ropean/tauri-hash.git
+   cd tauri-hash
    ```
 
 2. Install dependencies:
@@ -209,8 +230,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For support and questions:
 
-- [GitHub Issues](https://github.com/your-username/tauri-hash256/issues)
-- [Discussions](https://github.com/your-username/tauri-hash256/discussions)
+- [GitHub Issues](https://github.com/ropean/tauri-hash/issues)
+- [Discussions](https://github.com/ropean/tauri-hash/discussions)
 
 ## Roadmap
 

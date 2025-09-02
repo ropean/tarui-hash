@@ -3282,7 +3282,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "tauri-hash256"
+name = "tauri-hash"
 version = "1.0.0"
 dependencies = [
  "base64 0.21.7",
