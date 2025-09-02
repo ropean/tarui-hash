@@ -73,22 +73,22 @@ A professional desktop utility for computing SHA-256 hashes of files, built with
 
 ```
 tauri-hash/
-├── src/                    # Frontend (React/TypeScript)
-│   ├── App.tsx           # Main application component
-│   ├── components/       # Reusable UI components
-│   ├── hooks/           # Custom React hooks
-│   ├── utils/           # Utility functions
-│   └── types/           # TypeScript type definitions
-├── src-tauri/            # Backend (Rust/Tauri)
+├── src/                      # Frontend (React/TypeScript)
+│   ├── App.tsx               # Main application component
+│   ├── components/           # Reusable UI components
+│   ├── hooks/                # Custom React hooks
+│   ├── utils/                # Utility functions
+│   └── types/                # TypeScript type definitions
+├── src-tauri/                # Backend (Rust/Tauri)
 │   ├── src/
-│   │   ├── main.rs      # Application entry point
-│   │   ├── commands.rs  # Tauri command handlers
-│   │   ├── hash.rs      # SHA-256 computation logic
-│   │   └── models.rs    # Data structures
-│   ├── Cargo.toml       # Rust dependencies
-│   └── tauri.conf.json  # Tauri configuration
-├── assets/                # Application icons
-└── .github/workflows/    # CI/CD pipeline
+│   │   ├── main.rs           # Application entry point
+│   │   ├── commands.rs       # Tauri command handlers
+│   │   ├── hash.rs           # SHA-256 computation logic
+│   │   └── models.rs         # Data structures
+│   ├── Cargo.toml            # Rust dependencies
+│   └── tauri.conf.json       # Tauri configuration
+├── assets/                   # Application icons
+└── .github/workflows/        # CI/CD pipeline
 ```
 
 ## Architecture
